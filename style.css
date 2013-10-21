@@ -1,0 +1,76 @@
+body{
+	background-color: #303136;
+}
+p{
+	color: #DCE0DD;
+}
+.avatar{
+	margin:100px 0px 40px 31%;
+}
+.avatar img{
+	height: 100px;
+	width: 100px;
+	border: 2px solid #eee; 
+	border-radius: 9999px;
+	margin-right: 100px;
+}
+.nvBr{
+	color: #DCE0DD;
+	text-decoration: none;
+	/*margin-right: 60px;*/
+}
+a{
+	color: #DCE0DD;
+	text-decoration: none;
+	font-family: "Courier New", Courier, monospace;
+}
+nav{
+	display: inline-block;
+	position: absolute;
+	margin-top: 45px;
+}
+nav div{
+	float: left;
+	margin-right: 40px;
+	font-family: "Courier New", Courier, monospace;
+}
+#walt{
+	/*position: absolute;*/
+	cursor: text;
+}
+.twit{
+	margin-right: 60px;
+	margin-left:  60px;
+}
+.headerNav{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 70%;
+	height: 15px;
+}
+.headerNav div a{
+	float: left;
+}
+.grnBrk{
+	width: 500px;
+	border-color: #E3B024;
+	background-color: #E3B024;
+	color: #E3B024;
+	margin-bottom: 40px;
+}
+.cntntBlck{
+	height: 300px;
+	width:  500px;
+	margin: 0 auto; 
+	background-color: #85C8FF;
+	/*padding: 15px;*/
+}
+.mnCntnt{
+	padding: 20px; 
+	color: black;
+	font-size: 18;
+	font-weight: 100; 
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
