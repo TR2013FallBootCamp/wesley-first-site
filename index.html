@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+	<title>Wesley Kay</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+	<script>
+		$(document).ready(function(){
+		  $("#walt").mouseenter(function(){
+		  		$('#walt').text("1CxDSgEW8jawmUR1Zut65AYJCiexCYeUrc")
+		  	.mouseleave(function(){
+		  		$('#walt').text("wallet");
+		  	});
+		  });
+		});
+	</script>
+</head>
+
+<body>
+	<div class="avatar">
+		<img src="avatar.jpeg">
+		<nav>
+			<div class="nvBr"><a href="https://github.com/wlkay">github</a></div>
+			<div class="nvBr"><a href="https://twitter.com/weslkay">twitter</a></div>
+			<div class="nvBr" id="walt">wallet</div>
+		</nav>
+	</div>
+	
+	<hr class="grnBrk">
+	<div class="cntntBlck">
+		<p class="mnCntnt">Here will be content, such as projects, photos, and other very, very amazing things.</p>
+	</div>
+</body>
+
+<!-- pull in gravatar -->
